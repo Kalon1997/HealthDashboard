@@ -1,0 +1,47 @@
+.navbar{
+    width: 25%;
+    height: auto;
+    margin-top: 2rem;
+    background-color: #1D3557;
+    border-radius: 1rem 0 0 1rem;
+    display: flex;
+    justify-content: center;
+}
+.navs{
+    padding-top: 3rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #F1FAEE;
+    font-size: 16px;
+}
+.navs span{
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.navs span:hover{
+    background-color: #F1FAEE;
+    color: #1D3557;
+    cursor: pointer;
+}
+
+@media screen and (max-width:350px) {
+    .navs {
+        text-align: left;
+        margin-left: 0;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:100px) {
+    .navs {
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+        font-size: 6px;
+    }
+}

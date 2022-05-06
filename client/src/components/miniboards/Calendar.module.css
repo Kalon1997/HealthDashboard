@@ -1,0 +1,15 @@
+.calendar{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    background-color: #1D3557;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

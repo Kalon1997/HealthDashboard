@@ -1,0 +1,17 @@
+.header{
+    width: 85%;
+    height: auto;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    background-color: #457B9D;
+    border-radius: 2rem;
+    box-shadow: 5px 10px 2px 3px #1D3557;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

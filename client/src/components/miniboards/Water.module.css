@@ -1,0 +1,15 @@
+.water{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    background-color: #1D3557;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

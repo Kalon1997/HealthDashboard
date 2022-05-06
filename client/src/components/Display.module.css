@@ -1,0 +1,51 @@
+.display{
+    width: 75%;
+    margin-top: 2rem;
+    height: auto;
+    display: flex;
+    background-color: #F1FAEE;
+    border-radius: 0 1rem 1rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.slab1{
+    width: 98%;
+    margin: 0.5rem;
+    height: auto;
+    background-color: #e0e7dd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 2rem;
+}
+.slab2{
+    width: 98%;
+    height: auto;
+    margin: 0.5rem;
+    background-color: #e0e7dd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+@media screen and (max-width:550px) {
+    .slab1 {
+        flex-direction: column;
+    }
+    .slab2 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:100px) {
+    .slab1 {
+        width: 90%;
+        flex-direction: column;
+    }
+    .slab2 {
+        width: 90%;
+        flex-direction: column;
+    }
+}
