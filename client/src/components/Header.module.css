@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .header{
     width: 85%;
     height: auto;
@@ -10,8 +11,8 @@
     justify-content: center;
 }
 .text{
-    font-size: larger;
-    font-weight: bolder;
+    font-size: 34px;
+    /* font-weight: bolder; */
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Pacifico', cursive;
 }

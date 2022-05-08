@@ -28,10 +28,22 @@
     color: #1D3557;
     cursor: pointer;
 }
-
+.btn{
+    width: auto;
+    height: auto;
+    padding: 0.5rem;
+    background-color: #A8DADC;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+.btn:hover{
+    background-color: #1D3557;
+    color: white;
+    cursor: pointer;
+}
 @media screen and (max-width:350px) {
     .navs {
-        text-align: left;
+        /* text-align: left; */
         margin-left: 0;
         font-size: 8px;
     }
@@ -39,7 +51,7 @@
 
 @media screen and (max-width:100px) {
     .navs {
-        text-align: left;
+        /* text-align: left; */
         margin-left: 0;
         padding-left: 0;
         font-size: 6px;
