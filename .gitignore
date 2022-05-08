@@ -2,5 +2,5 @@
 /client/node_modules
 /config/config.env
 /client/README.md
-/client/components/EnterFoodItemsRough.js
-/client/components/sof.js
+/client/src/components/EnterFoodItemsRough.js
+/client/src/components/sof.js
